@@ -1,8 +1,8 @@
 :root {
     --bg: #100818;              
-    --fg: #f8f8f8;             
+    --fg: #ffffff;              
     --accent: #c084fc;          
-    --code-bg: #1a0f24;         
+    --code-bg: #401468;         
 }
 
 body {
@@ -21,23 +21,21 @@ h1, h2 {
     text-shadow: 0 0 3px #c084fc66;
 }
 
-ul {
-    padding-left: 1.2em;
-    text-align: left;
-    display: inline-block;
-}
-
-code {
-    background: var(--code-bg);
-}
-
-code, pre {
-    
+pre, code {
+    color: var(--fg);
     padding: 0.4em 0.6em;
     border-radius: 4px;
     display: inline-block;
     font-size: 0.95em;
     box-shadow: 0 0 4px #7c3aed22;
+}
+
+code {
+    background-color: var(--code-bg);
+}
+
+ul {
+    padding-left: 1.2em;
 }
 
 hr {
